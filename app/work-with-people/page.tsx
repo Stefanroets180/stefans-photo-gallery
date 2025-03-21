@@ -4,7 +4,7 @@ import MasonryGrid from "@/components/masonry-grid"
 const work_with_people_Photos = [
   {
     id: "1",
-    title: "Studio Portrait",
+    title: "Hurdles 800m",
     src: "https://stefanpix.imgix.net/run1.avif", // Replace with your S3 URL
     width: 800,
     height: 1200,
@@ -12,7 +12,7 @@ const work_with_people_Photos = [
   },
   {
     id: "2",
-    title: "Environmental Portrait",
+    title: "Hurdles 800m",
     src: "https://stefanpix.imgix.net/run2.avif", // Replace with your S3 URL
     width: 1200,
     height: 800,
@@ -20,7 +20,7 @@ const work_with_people_Photos = [
   },
   {
     id: "3",
-    title: "Street Portrait",
+    title: "Hurdles 800m",
     src: "https://stefanpix.imgix.net/run3.avif", // Replace with your S3 URL
     width: 1000,
     height: 1500,
