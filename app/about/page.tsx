@@ -25,7 +25,7 @@ export default function AboutPage() {
             <strong>React Masonry CSS:</strong> For beautiful, responsive grid layouts
           </li>
           <li>
-            <strong>Lightgallery:</strong> For immersive fullscreen photo viewing
+            <strong>Abstract Expressions and Artistry:</strong> For immersive fullscreen photo viewing
           </li>
           <li>
             <strong>AWS S3:</strong> For reliable image storage
@@ -38,13 +38,13 @@ export default function AboutPage() {
         <p>We currently feature three main collections, each showcasing a different aspect of photography:</p>
         <ul>
           <li>
-            <strong>Nature:</strong> Breathtaking landscapes, wildlife, and natural wonders
+            <strong>The Natural World:</strong> Breathtaking landscapes, wildlife, and natural wonders
           </li>
           <li>
             <strong>Urban:</strong> City skylines, street photography, and architectural marvels
           </li>
           <li>
-            <strong>Portraits:</strong> Captivating images of people from diverse backgrounds and cultures
+            <strong>Work With People:</strong> Captivating images of people from diverse backgrounds and cultures
           </li>
         </ul>
         <p>We regularly update our collections with new images, so be sure to check back often to see what's new.</p>

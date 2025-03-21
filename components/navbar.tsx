@@ -14,10 +14,17 @@ const navLinks = [
     name: "Galleries",
     path: "#",
     dropdown: [
-      { name: "Nature", path: "/nature" },
+      { name: "The Natural World", path: "/the-natural-world" },
       { name: "Urban", path: "/urban" },
-      { name: "Portraits", path: "/portraits" },
-      {name: "Abstract Expressions and Artistry", path: "/abstract-expressions-and-artistry" },
+      { name: "Work With People", path: "/work-with-people" },
+      { name: "Abstract Expressions and Artistry", path: "/abstract-expressions-and-artistry" },
+      { name: "Abstract Visual Storytelling", path: "/idea-driven-visual-storytelling" },
+      { name: "Cityscapes and Structures", path: "/cityscapes-and-structures" },
+      {name: "Live Events", path: "/live-events" },
+      {name: "Monochromatic Mastery", path: "/monochromatic-mastery" },
+      {name: "Couture", path: "/couture" },
+      {name: "Commercial Photography", path: "/commercial-photography" },
+        
         
     ],
   },

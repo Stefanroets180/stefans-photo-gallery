@@ -1,16 +1,16 @@
 import MasonryGrid from "@/components/masonry-grid"
 
 // This would typically come from your API or CMS
-const portraitPhotos = [
+const commercial_photography_Photos = [
   {
     id: "1",
     title: "Studio Portrait",
-    src: "https://your-s3-bucket.s3.amazonaws.com/portraits/studio.jpg", // Replace with your S3 URL
+    src: "url('/placeholder.svg?height=800&width=1200')", // Replace with your S3 URL
     width: 800,
     height: 1200,
     alt: "Professional studio portrait",
   },
-  {
+  /*{
     id: "2",
     title: "Environmental Portrait",
     src: "https://your-s3-bucket.s3.amazonaws.com/portraits/environmental.jpg", // Replace with your S3 URL
@@ -49,10 +49,9 @@ const portraitPhotos = [
     width: 1200,
     height: 800,
     alt: "Family portrait in outdoor setting",
-  },
+  },*/
 ]
 
-export default function PortraitsPage() {
-  return <MasonryGrid photos={portraitPhotos} category="Portraits" />
+export default function Commercial_Photography_Page() {
+  return <MasonryGrid photos={commercial_photography_Photos} category="Commercial Photography" />
 }
-

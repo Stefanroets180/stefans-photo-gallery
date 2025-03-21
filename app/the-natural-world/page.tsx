@@ -1,7 +1,7 @@
 import MasonryGrid from "@/components/masonry-grid"
 
 // This would typically come from your API or CMS
-const naturePhotos = [
+const the_natural_world_Photos = [
   {
     id: "1",
     title: "Coffee Bay",
@@ -13,7 +13,8 @@ const naturePhotos = [
     
 ]
 
-export default function NaturePage() {
-  return <MasonryGrid photos={naturePhotos} category="Nature" />
+export default function The_Natural_World_Page() {
+  return <MasonryGrid photos={the_natural_world_Photos} 
+                      category="The Natural World" />
 }
 

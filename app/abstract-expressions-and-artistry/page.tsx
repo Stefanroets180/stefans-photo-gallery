@@ -63,7 +63,7 @@ const abstract_expressions_and_artistry_Photos = [
   {
     id: "8",
     title: "fish eye selfie",
-    src: "https://stefanpix.imgix.net/backgroundpics3.webp", // Replace with your S3 URL
+    src: "url('/placeholder.svg?height=800&width=1200')", // Replace with your S3 URL
     width: 3600,
     height: 2400,
     alt: "me",

@@ -13,18 +13,30 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children,
-  nature,
-  urban,
-  portraits,
-  abstract_expressions_and_artistry,  
-
+     children,
+     the_natural_world,
+     urban,
+     work_with_people,
+     abstract_expressions_and_artistry,
+     idea_driven_visual_storytelling,
+     cityscapes_and_structures,
+     live_events,
+     monochromatic_mastery,
+     couture,
+     commercial_photography,
+    
 }: {
   children: React.ReactNode
-  nature: React.ReactNode
+  the_natural_world: React.ReactNode
   urban: React.ReactNode
-  portraits: React.ReactNode
+  work_with_people: React.ReactNode
   abstract_expressions_and_artistry: React.ReactNode
+  idea_driven_visual_storytelling: React.ReactNode
+  cityscapes_and_structures: React.ReactNode
+  live_events: React.ReactNode
+  monochromatic_mastery: React.ReactNode
+  couture: React.ReactNode
+  commercial_photography: React.ReactNode
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -34,10 +46,16 @@ export default function RootLayout({
             <Navbar />
             <main className="flex-1">
               {children}
-              {nature}
+              {the_natural_world}
               {urban}
-              {portraits}
+              {work_with_people}
               {abstract_expressions_and_artistry}
+              {idea_driven_visual_storytelling}
+              {cityscapes_and_structures}
+              {live_events}
+              {monochromatic_mastery}
+              {couture}
+              {commercial_photography}
             </main>
             <footer className="py-6 border-t">
               <div className="container mx-auto px-4 text-center text-muted-foreground">
