@@ -81,7 +81,7 @@ export default function Home() {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('/placeholder.svg?height=400&width=600')",
+                backgroundImage: "url('https://stefanpix.imgix.net/avif/New-Orlines-2.avif?height=400&width=600')",
               }}
             ></div>
             <div className="absolute bottom-4 left-4 text-white">
