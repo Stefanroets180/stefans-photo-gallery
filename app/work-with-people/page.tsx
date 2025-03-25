@@ -42,14 +42,142 @@ const work_with_people_Photos = [
     height: 1200,
     alt: "Dramatic black and white portrait",
   },
-  // {
-  //   id: "6",
-  //   title: "Family Portrait",
-  //   src: "https://your-s3-bucket.s3.amazonaws.com/portraits/family.jpg", // Replace with your S3 URL
-  //   width: 1200,
-  //   height: 800,
-  //   alt: "Family portrait in outdoor setting",
-  // },
+  {
+    id: "6",
+    title: "Family Portrait",
+    src: "https://stefanpix.imgix.net/avif/bw-naledi2.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
+  {
+    id: "7",
+    title: "Environmental Portrait",
+    src: "https://stefanpix.imgix.net/avif/bw-naledi1.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Portrait in natural environment",
+  },
+  {
+    id: "8",
+    title: "Street Portrait",
+    src: "https://stefanpix.imgix.net/avif/portrit-3-of-2.avif", // Replace with your S3 URL
+    width: 5827,
+    height: 3744,
+    alt: "Candid street portrait",
+  },
+  {
+    id: "9",
+    title: "Cultural Portrait",
+    src: "https://stefanpix.imgix.net/avif/portit-1-of-2_1.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
+  {
+    id: "10",
+    title: "Family Portrait",
+    src: "https://stefanpix.imgix.net/avif/bw-sheldon.avif", // Replace with your S3 URL
+    width: 5616,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
+  {
+    id: "11",
+    title: "Studio Portrait",
+    src: "https://stefanpix.imgix.net/avif/divan-w.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Professional studio portrait",
+  },
+  {
+    id: "12",
+    title: "Street Portrait",
+    src: "https://stefanpix.imgix.net/avif/divan-w2.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Candid street portrait",
+  },
+  {
+    id: "13",
+    title: "Cultural Portrait",
+    src: "https://stefanpix.imgix.net/avif/divan-w3.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
+  {
+    id: "14",
+    title: "Black and White Portrait",
+    src: "https://stefanpix.imgix.net/avif/divan-w4.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Dramatic black and white portrait",
+  },
+  {
+    id: "15",
+    title: "Studio Portrait",
+    src: "https://stefanpix.imgix.net/avif/working1.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Professional studio portrait",
+  },
+  {
+    id: "16",
+    title: "Family Portrait",
+    src: "https://stefanpix.imgix.net/avif/working2.avif", // Replace with your S3 URL
+    width: 4992,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
+  {
+    id: "17",
+    title: "Studio Portrait",
+    src: "https://stefanpix.imgix.net/avif/rose-old1.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Professional studio portrait",
+  },
+  {
+    id: "18",
+    title: "Environmental Portrait",
+    src: "https://stefanpix.imgix.net/avif/rose-old2.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Portrait in natural environment",
+  },
+  {
+    id: "19",
+    title: "Street Portrait",
+    src: "https://stefanpix.imgix.net/avif/90-1.avif", // Replace with your S3 URL
+    width: 2468,
+    height: 3744,
+    alt: "Candid street portrait",
+  },
+  {
+    id: "20",
+    title: "Cultural Portrait",
+    src: "https://stefanpix.imgix.net/avif/90-2.avif", // Replace with your S3 URL
+    width: 4992,
+    height: 3744,
+    alt: "Portrait showcasing cultural elements",
+  },
+  {
+    id: "21",
+    title: "Black and White Portrait",
+    src: "https://stefanpix.imgix.net/avif/kat-old1.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Dramatic black and white portrait",
+  },
+  {
+    id: "22",
+    title: "Family Portrait",
+    src: "https://stefanpix.imgix.net/avif/kat-old2.avif", // Replace with your S3 URL
+    width: 2496,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
 ]
 
 export default function Work_With_People_Page() {
