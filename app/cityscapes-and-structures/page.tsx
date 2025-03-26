@@ -58,6 +58,14 @@ const cityscapes_and_structures_Photos = [
     height: 3744,
     alt: "Family portrait in outdoor setting",
   },
+  {
+    id: "8",
+    title: "NWU",
+    src: "https://stefanpix.imgix.net/avif/structur1.avif", // Replace with your S3 URL
+    width: 6013,
+    height: 3744,
+    alt: "Family portrait in outdoor setting",
+  },
 ]
 
 export default function Cityscapes_and_Structures_Page() {
