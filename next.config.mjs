@@ -14,9 +14,16 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["stefanpix.imgix.net"],
-    /*unoptimized: true,*/
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "stefanpix.imgix.net",
+        /*unoptimized: true,*/
+        pathname: "**",
+      },
+    ],
   },
+
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,

@@ -2,22 +2,7 @@ import MasonryGrid from "@/components/masonry-grid"
 
 // This would typically come from your API or CMS
 const live_events_Photos = [
-  {
-    id: "1",
-    title: "Environmental Portrait",
-    src: "https://stefanpix.imgix.net/avif/band.avif", // Replace with your S3 URL
-    width: 2558,
-    height: 3744,
-    alt: "Portrait in natural environment",
-  },
-  // {
-  //   id: "2",
-  //   title: "Studio Portrait",
-  //   src: "https://stefanpix.imgix.net/avif/band2.avif", // Replace with your S3 URL
-  //   width: 2443,
-  //   height: 3744,
-  //   alt: "Professional studio portrait",
-  // },
+ 
   {
     id: "3",
     title: "Black and White Portrait",

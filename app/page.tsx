@@ -1,4 +1,4 @@
-import Link from "next/link"
+    import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
           <Button asChild size="lg" variant="outline">
             <Link href="/live-events">Live Events</Link>
           </Button>
-          <Button asChild size="lg" variant="outline">
+          <Button asChild size="lg" variant="outline" >
             <Link href="/monochromatic-mastery">Monochromatic Mastery</Link>
           </Button>
           <Button asChild size="lg">
@@ -42,12 +42,6 @@ export default function Home() {
           <Button asChild size="lg" variant="outline">
             <Link href="/commercial-photography">Commercial Photography Gallery</Link>
           </Button>
-          {/*<Button asChild size="lg" variant="outline">*/}
-          {/*  <Link href="/work-with-people">Work With People</Link>*/}
-          {/*</Button>*/}
-          {/*<Button asChild size="lg" variant="outline">*/}
-          {/*  <Link href="/abstract-expressions-and-artistry">Abstract Expressions and Artistry Gallery</Link>*/}
-          {/*</Button>*/}
         </div>
       </section>
 
@@ -58,7 +52,7 @@ export default function Home() {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('https://stefanpix.imgix.net/coffebay1.avif?height=400&width=600')",
+                backgroundImage: "url('https://stefanpix.imgix.net/uploads/coffebay1.avif?height=400&width=600')",
               }}
             ></div>
             <div className="absolute bottom-4 left-4 text-white">
@@ -104,7 +98,7 @@ export default function Home() {
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://stefanpix.imgix.net/eye2.webp?height=400&width=600')",
+                  backgroundImage: "url('https://stefanpix.imgix.net/uploads/eye2.webp?height=400&width=600')",
                 }}
             ></div>
             <div className="absolute bottom-4 left-4 text-white">
@@ -122,31 +116,6 @@ export default function Home() {
             </Button>
           </div>
         </div>
-
-        {/*<div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">*/}
-        {/*  <div className="relative h-48">*/}
-        {/*    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>*/}
-        {/*    <div*/}
-        {/*        className="absolute inset-0 bg-cover bg-center"*/}
-        {/*        style={{*/}
-        {/*          backgroundImage: "url('/placeholder.svg?height=400&width=600')",*/}
-        {/*        }}*/}
-        {/*    ></div>*/}
-        {/*    <div className="absolute bottom-4 left-4 text-white">*/}
-        {/*      <h3 className="text-xl font-bold">Abstract Expressions and Artistry</h3>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*  <div className="p-6">*/}
-        {/*    <p className="text-muted-foreground mb-4">*/}
-        {/*      Encompass abstract photos, like close-ups of objects eg,*/}
-        {/*      Macro or Light paintings, Fine art, Composite photography etc.*/}
-        {/*      Something a bit more creative different and out there.*/}
-        {/*    </p>*/}
-        {/*    <Button asChild variant="outline" className="w-full">*/}
-        {/*      <Link href="/abstract-expressions-and-artistry">View Gallery</Link>*/}
-        {/*    </Button>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
         
         <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
           <div className="relative h-48">
@@ -181,15 +150,13 @@ export default function Home() {
                   backgroundImage: "url('https://stefanpix.imgix.net/avif/couture4.avif?height=400&width=600')",
                 }}
             ></div>
-            <div className="absolute bottom-4 left-4 text-white">
+            <div className="absolute bottom-4 left-4 text-stone-500">
               <h3 className="text-xl font-bold">Couture</h3>
             </div>
           </div>
           <div className="p-6">
             <p className="text-muted-foreground mb-4">
-              Encompass abstract photos, like close-ups of objects eg,
-              Macro or Light paintings, Fine art, Composite photography etc.
-              Something a bit more creative different and out there.
+              Focuses on capturing the artistry and luxury of high-end, bespoke garments and fashion
             </p>
             <Button asChild variant="outline" className="w-full">
               <Link href="/couture">View Gallery</Link>
@@ -237,9 +204,7 @@ export default function Home() {
           </div>
           <div className="p-6">
             <p className="text-muted-foreground mb-4">
-              Encompass abstract photos, like close-ups of objects eg,
-              Macro or Light paintings, Fine art, Composite photography etc.
-              Something a bit more creative different and out there.
+              Captures the energy and candid moments of events, from concerts.
             </p>
             <Button asChild variant="outline" className="w-full">
               <Link href="/live-events">View Gallery</Link>
@@ -262,9 +227,8 @@ export default function Home() {
           </div>
           <div className="p-6">
             <p className="text-muted-foreground mb-4">
-              Encompass abstract photos, like close-ups of objects eg,
-              Macro or Light paintings, Fine art, Composite photography etc.
-              Something a bit more creative different and out there.
+              Capturing the essence of the environment and its architectural forms.
+              It typically includes a wide-angle shot of a city skyline.
             </p>
             <Button asChild variant="outline" className="w-full">
               <Link href="/cityscapes-and-structures">View Gallery</Link>
@@ -272,7 +236,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
+        <div className="rounded-lg border bg-card text-card- foreground shadow-sm overflow-hidden">
           <div className="relative h-48">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-60"></div>
             <div
@@ -287,7 +251,8 @@ export default function Home() {
           </div>
           <div className="p-6">
             <p className="text-muted-foreground mb-4">
-              Fictional made-up stories .......
+              Pushes beyond simply capturing a scene.
+              Starting with a concept or a story,and use creativity to bring vision to life.
             </p>
             <Button asChild variant="outline" className="w-full">
               <Link href="/idea-driven-visual-storytelling">View Gallery</Link>

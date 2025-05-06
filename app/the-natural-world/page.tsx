@@ -5,7 +5,7 @@ const the_natural_world_Photos = [
   {
     id: "1",
     title: "Coffee Bay",
-    src: "https://stefanpix.imgix.net/coffebay1.avif", // Replace with your S3 URL
+    src: "https://stefanpix.imgix.net/uploads/coffebay1.avif", // Replace with your S3 URL
     width: 800,
     height: 1200,
     alt: "See landscape with rocks",

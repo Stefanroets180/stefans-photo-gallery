@@ -5,7 +5,7 @@ const idea_driven_visual_storytelling_Photos = [
   {
     id: "1",
     title: "Environmental Portrait",
-    src: "https://stefanpix.imgix.net/avif/storry1.avif", // Replace with your S3 URL
+    src: "https://stefanpix.imgix.net/avif/storry2.avif", // Replace with your S3 URL
     width: 2496,
     height: 3744,
     alt: "Portrait in natural environment",
@@ -13,7 +13,7 @@ const idea_driven_visual_storytelling_Photos = [
   {
     id: "2",
     title: "Studio Portrait",
-    src: "https://stefanpix.imgix.net/avif/storry2.avif", // Replace with your S3 URL
+    src: "https://stefanpix.imgix.net/avif/storry1.avif", // Replace with your S3 URL
     width: 5616,
     height: 3744,
     alt: "Professional studio portrait",

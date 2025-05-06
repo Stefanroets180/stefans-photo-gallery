@@ -10,7 +10,7 @@ type imgixLoaderProps = {
     width: number;
     quality?: number;
 };
-
+ 
 const imgixLoader = ({src}: imgixLoaderProps) => {
     const url = new URL(src);
 
